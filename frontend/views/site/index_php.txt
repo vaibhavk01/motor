@@ -1,0 +1,320 @@
+<style>
+ 
+ 
+ .borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+     border: none;
+ }
+ 
+ </style>
+ 
+ <?php
+ /* @var $this yii\web\View */
+ $this->title = 'My Yii Application';
+ use yii\bootstrap\ActiveForm;
+ use yii\helpers\Html;
+ use yii\captcha\Captcha;
+ use frontend\models\Car;
+ use yii\helpers\ArrayHelper;
+ use yii\helpers\Url;
+ 
+
+ use wbraganca\dynamicform\DynamicFormWidget;
+ 
+use kartik\typeahead\TypeaheadBasic;
+use kartik\typeahead\Typeahead;
+
+ 
+ $blank = [
+ ];
+ 
+ ?>
+ 
+ <div class="site-index" style="margin-top:100px">
+  <div class="container" style="margin-top: 15px;">
+  <div class="row clearfix text-right" >
+  	<div class="col-md-2 column pull-right" >
+  	
+<div class="form-group">
+  <select class="form-control" id="sel1">
+    <option>Select City</option>
+    <option>Chennai</option>
+    <option>Other</option>
+  </select>
+</div>
+  	
+  	
+  	</div>
+  	</div>
+  
+ 
+  
+  <div class="col-md-12 column" style="margin-top: 5px;">
+   <div class="row clearfix">
+   <h3 class="text-center" style="margin-bottom: 45px; font-family:Helvetica Neue; font-size: 55px;margin-bottom: 50px; font-weight: 100;" >
+   	The Best New Car Deals in Your City, Right Here.
+   </h3>
+   
+   
+  
+   </div>
+   </div>
+   
+   <div class="row clearfix text-center" >
+   	<div class="col-md-10 column col-md-offset-1" >
+  
+  <?php
+  
+  echo Typeahead::widget([
+      'name' => 'country',
+      'options' => ['placeholder' => 'Enter the Car You Want to Buy'],
+      'pluginOptions' => ['highlight'=>true],
+      'dataset' => [
+          [
+              'datumTokenizer' => "Bloodhound.tokenizers.obj.whitespace('value')",
+              'display' => 'value',
+              'prefetch' =>'/samples/cars.json',
+             // 'remote' => [
+               //   'url' => Url::to(['site/carlist']) . '?q=%QUERY',
+                 // 'wildcard' => '%QUERY'
+              //]
+          ]
+      ]
+  ]);
+   
+   
+   
+   
+   ?>
+   </div>
+   
+   
+    
+    </div>
+    
+    <div class="row clearfix text-center" style="margin-top: 40px;">
+    	<div class="col-md-10 column col-md-offset-1" >
+    
+               <?= Html::a('Sign Up for FREE', ['/site/contact'], ['class'=>'btn btn-primary2']) ?>
+    
+    </div>
+    </div>
+  
+  	<!--<div class="row clearfix" >
+  		<div class="col-md-4 column" >
+  			<img alt="140x140" src="http://motormetric.com/images/car.png" style="display: block;margin-left: auto;margin-right: auto;width: 100px; padding-top: 10px;" />
+  			
+  			
+  			<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;">
+  				Select the Car You Want to Buy
+  			</h4>
+  		</div>
+  		<div class="col-md-4 column">
+  		
+  			<img alt="140x140" src="http://motormetric.com/images/2.jpg" style="width: 105px;display: block;margin-left: auto;margin-right: auto;width: 50px; margin-top: 10px;" />
+  			<br>
+  			<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;">
+  				Get Best Offers from Dealerships<br> Delivered Straight to You
+  			</h4>
+  		</div>
+  		<div class="col-md-4 column" >
+  		
+  		
+  			<img alt="140x140" src="http://motormetric.com/images/Bulb.png"  style="width: 105px;display: block;margin-left: auto;margin-right: auto;width: 50px; margin-top: 10px;"/>
+  			<br>
+  			<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;" >
+  				Compare Offers, Choose the Best, <br>Buy Your Next New Car
+  			</h4>
+  		</div>
+  	</div>-->
+  
+ 
+ 
+<!-- <div class="row clearfix" style="margin-top:30px;">
+ 
+ <div class="col-md-10 column col-md-offset-2 " style="margin-top: 40px;">
+ 
+  	<div class="col-md-4 column" style="margin-top: 10px;">
+  <div>
+    <span style="vertical-align;" aria-hidden="true"><img align="middle" style="width: 40px;"src="http://motormetric.com/images/handshake.png"></span>
+ 
+    Transparent, Hassle-Free Deals
+  </div>
+  <div style="margin-top: 10px;">
+    <span style="vertical-align;" aria-hidden="true"><img align="middle" style="width: 40px;"src="http://motormetric.com/images/man.png"></span>
+    
+  
+     Stay Anonymous Till the Final Deal
+   </div>
+   </div>
+   
+   <div class="col-md-6 column" style="margin-top: 10px;">
+   
+   <div>
+     <span style="vertical-align;" aria-hidden="true"><img align="middle" style="width: 40px;"src="http://motormetric.com/images/time.png"></span>
+     
+   
+     Save Time, Sweat & Fuel Visiting Different Dealers
+    </div>
+   <div style="margin-top: 10px;">
+      <span style="vertical-align;" aria-hidden="true"><img align="middle" style="width: 40px;"src="http://motormetric.com/images/rupee.png"></span>
+      
+    
+ Pay Only the Best Price for Your Next New Car    </div>
+  
+ </div>
+  </div>
+  
+   </div>-->
+    
+  
+   
+   </div>
+   <div class="container-fluid col-md-12" style="margin-top: 25px; background-color: #A4C860;">
+   
+    
+   <!-- <?php
+   
+   echo Typeahead::widget([
+       'name' => 'country',
+       'options' => ['placeholder' => 'Search your car ...'],
+       'pluginOptions' => ['highlight'=>true],
+       'dataset' => [
+           [
+               'datumTokenizer' => "Bloodhound.tokenizers.obj.whitespace('value')",
+               'display' => 'value',
+               'prefetch' =>'/samples/cars.json',
+              // 'remote' => [
+                //   'url' => Url::to(['site/carlist']) . '?q=%QUERY',
+                  // 'wildcard' => '%QUERY'
+               //]
+           ]
+       ]
+   ]);
+    
+    
+    
+    
+    ?>-->
+    
+    <div class="row clearfix" >
+    	<div class="col-md-3 column" >
+    		<img alt="140x140" src="http://motormetric.com/images/handshake.png" style="display: block;margin-left: auto;margin-right: auto;width: 50px; padding-top: 10px;" />
+    		
+    		
+    		<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;">
+    			Select the Car You Want to Buy
+    		</h4>
+    	</div>
+    	<div class="col-md-3 column">
+    	<!--<span class="glyphicon glyphicon-list" style="font-size: 100px;display: block;margin-left: auto;margin-right: auto;text-align:center; color:#4A2F4A;"></span>-->
+    		<img alt="140x140" src="http://motormetric.com/images/man.png" style="width: 105px;display: block;margin-left: auto;margin-right: auto;width: 50px; margin-top: 10px;" />
+    		<br>
+    		<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;">
+    			Get Best Offers from Dealerships<br> Delivered Straight to You
+    		</h4>
+    	</div>
+    	<div class="col-md-3 column" >
+    	<!--<span class="glyphicon glyphicon-saved" style="font-size: 100px;display: block;margin-left: auto;margin-right: auto;text-align:center; color:#4A2F4A;"></span>-->
+    	
+    		<img alt="140x140" src="http://motormetric.com/images/time.png"  style="width: 105px;display: block;margin-left: auto;margin-right: auto;width: 50px; margin-top: 10px;"/>
+    		<br>
+    		<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;" >
+    			Compare Offers, Choose the Best, <br>Buy Your Next New Car
+    		</h4>
+    	</div>
+    	
+    	<div class="col-md-3 column" >
+    	<!--<span class="glyphicon glyphicon-saved" style="font-size: 100px;display: block;margin-left: auto;margin-right: auto;text-align:center; color:#4A2F4A;"></span>-->
+    	
+    		<img alt="140x140" src="http://motormetric.com/images/rupee.png"  style="width: 105px;display: block;margin-left: auto;margin-right: auto;width: 50px; margin-top: 10px;"/>
+    		<br>
+    		<h4 class="text-center" style="font-family: Lucida Sans, Sans-serif;" >
+    			Compare Offers, Choose the Best, <br>Buy Your Next New Car
+    		</h4>
+    	</div>
+    </div>
+    
+   
+   <!--<p style="font-family: lucida sans, sans-serif;">
+   *Currently serving Chennai City only. <a style="color: blue;" href="http://motormetric.com/launch" target="_blank">Launching soon in other cities.</a></p>-->
+   
+   </div>
+  </div>
+  
+ 
+ 
+ 
+
+ 
+<!-- <div class="container-fluid test1" style="background-color: #A4C860;">
+ <div class="col-lg-10 col-md-offset-2" style="margin-top: 15px;">
+ <?php $form = ActiveForm::begin(['id' => 'form-signup','action' => ['site/choose'],]); ?>
+ <div class="col-lg-3" style="width: 280px;">
+     
+         
+         <?php 
+         $estado = ArrayHelper::map(Car::find()->select('model')->distinct('true')->orderby('model')->all(), 'model', 'model');
+         
+         $estad = array_shift($estado );
+ 
+         
+                echo $form->field($mod, 'brand')->dropDownList(
+                        $estado,
+                        [
+                            'prompt'=>'Select Brand',
+                            
+                            'onchange'=>'
+                                $.get( "'.Url::toRoute('/site/findcars').'", { model: $(this).val() } )
+                                    .done(function( data ) {
+                                        $("select#'.Html::getInputId($mod, 'model_name').'").html( data );
+                                    }
+                                );
+                            '    
+                        ]
+                )->label(false) ;
+                ?>
+                
+                        
+      </div>
+      
+      <div class="col-lg-3" style="width: 280px;">
+        <?php
+                //$estado1 = ArrayHelper::map(Car::find()->where('model_name = :model_name', [':model_name' => "Hyundai i10"])->all(), 'model_name', 'model_name');
+        
+        echo $form->field($mod, 'model_name')->dropDownList(
+                $blank, 
+                [
+                    'prompt'=>'Select Model',
+                    	
+                    'onchange'=>'
+                        $.get( "'.Url::toRoute('/site/findcarsfuel').'", { model: $(this).val() } )
+                            .done(function( data ) {
+                                $("select#'.Html::getInputId($mod, 'fuel').'").html( data );
+                            }
+                        );
+                    '    
+                ]
+        )->label(false) ;
+        
+        
+        
+        
+        
+        ?>
+        </div>
+           <div class="col-lg-3" style="width: 280px;">
+        
+         <?= $form->field($mod, 'fuel')->dropDownlist($blank,['prompt'=>'Select Fuel Type'])->label(false) ; ?>
+        
+               
+        
+         
+ </div>
+         <div class="col-lg-3" >
+         <div class="form-group">
+             <?= Html::submitButton('Signup For FREE', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+         </div>
+         </div>
+     <?php ActiveForm::end(); ?>
+ </div>
+ </div>-->

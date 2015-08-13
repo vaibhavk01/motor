@@ -1,0 +1,495 @@
+html,
+body {
+    height: 100%;
+}
+
+body, html {
+
+
+min-height:100%;
+padding:0;
+margin-bottom:0
+
+
+}
+
+table
+{
+	width: 100%;
+	font-family: lucida sans,sans-serif;
+}
+
+
+th 
+{
+	text-align: center;
+	padding: 15px;
+	
+	
+	
+}
+
+td
+{
+ //border-bottom: solid 1px black;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	font-weight: bolder;
+	
+}
+
+.test
+{
+	padding-top: 55px;
+	text-align: center;
+	
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+   // background: url('../../images/bg.jpg') no-repeat fixed;
+    background-size:cover;
+    //overflow: hidden;
+}
+.btn-primary1
+{
+	color: white;
+	background-color: #A4C860;
+	width: 200px;
+	padding: 10px;
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+.btn-primary2
+{
+	color: white;
+	background-color: #A4C860;
+	width: 150px;
+	padding: 10px;
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+
+.btn-primarymain
+{
+	color: white;
+	background-color: #A4C860;
+	width: 200px;
+	padding: 10px;
+	font-family: Lucida sans,sans-serif;
+	font-size: 18px;
+	
+	
+}
+
+.btn-primarysign
+{
+	color:#999999;
+	background-color: white;
+	width: 150px;
+	padding: 10px;
+	font-family: Lucida sans,sans-serif;
+	border: 1px solid #ccc;
+	
+	
+}
+
+
+
+.btn-primary3
+{
+	color: white;
+	background-color: #4A2F4A;
+	width: auto;
+	padding: 10px;
+	font-family: Lucida sans,sans-serif;
+	margin-right: 15px;
+	
+	
+}
+
+.btn-primary4
+{
+	color: white;
+	background-color: #A4C860;
+	width:auto;
+
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+.btn-primaryt1
+{
+	color: white;
+	background-color: orange;
+	width:120px;
+
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+.btn-primaryt2
+{
+	color: white;
+	background-color: green;
+	width: 120px;
+	
+
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+.btn-primaryt3
+{
+	color: white;
+	background-color: grey;
+	width:120px;
+
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+.btn-primaryt4
+{
+	color: white;
+	background-color: #A4C860;
+	width:120px;
+
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+
+.btn-primaryt5
+{
+	color: white;
+	background-color: #A4C860;
+	width:200px;
+	
+	padding: 10px;
+
+	font-family: Lucida sans,sans-serif;
+	
+	
+}
+
+.btn-primarysign:hover
+{
+	color: white;
+	background-color: green;
+	
+}
+
+
+.btn-primarymain:hover
+{
+	color: white;
+	background-color: grey;
+	
+}
+
+.btn-primary2:hover
+{
+	color: white;
+	background-color: grey;
+	
+}
+
+.btn-primary3:hover
+{
+	color: white;
+	background-color: grey;
+	
+}
+
+.btn-primary4:hover
+{
+	color: white;
+	background-color: grey;
+	
+}
+
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #4A2F4A;
+   // border-top: 1px solid #ddd;
+    padding-top: 20px;
+    color: white;
+    font-family: Lucidia sans,Sans-serif;
+    
+}
+
+.footer .container {
+	
+	margin-top: 0.1%;
+	
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.test1 {
+ //position: absolute;
+  margin-top:2.5%;
+//bottom: 60px;
+ width: 100%; 
+
+}
+
+@media (max-width: 1200px) {
+  .test1 {
+    position: relative;
+    margin-top: 95px;
+  }
+  }
+  
+  .cardiv {
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .cardiv1 {
+    
+    margin-top: 30px;
+   
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 1000px) {
+    .cardiv {
+      
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    
+    .footer {
+        height: 80px;
+        background-color: #4A2F4A;
+       // border-top: 1px solid #ddd;
+        padding-top: 20px;
+        color: white;
+        font-family: Lucidia sans,Sans-serif;
+        
+    }
+    }
+
+
+
+#signupform-brand {
+	
+	
+	font-weight: bold;
+	
+
+}
+
+
+#signupform-model_name {
+	
+	
+	font-weight: bold;
+	
+}
+
+#signupform-fuel {
+	
+	
+	font-weight: bold;
+	
+}
+
+#signupform-variant {
+	
+	
+	font-weight: bold;
+	
+}
+
+#signupform-color {
+	
+	
+	font-weight: bold;
+	
+}
+
+
+#rowimage
+{
+	
+	margin-left: 5%;
+	
+}
+
+@media (max-width: 1000px) {
+  #rowimage {
+  margin-left: 0%;
+  }
+  }
+
+#carmain {
+
+  height: 50px;
+
+  text-align: center;
+}
+
+#city{
+
+  height: 40px;
+
+
+}
+
+#replyform-roadt
+{
+	text-align: left;
+}
+
+@media (min-width: 768px){
+.color .col-sm-7 {
+    width: 90%;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.cars1{
+	
+margin-left: 150px;
+	
+	
+}
+
+#manu{
+	
+margin-left: 300px;
+	
+	
+}
+.mainlog
+{
+	
+	width: 500px;
+}
+
+
+
+}
+
+#sel1 {
+	
+	background-color: white;
+	text-align: center;
+	
+	
+}
+
+.cars{
+	
+margin-top: 20px;
+	
+	
+}
+
+
+@media (max-width: 768px){
+.mainlog
+{
+	
+	width: 300px;
+}
+}
+
+
+
+

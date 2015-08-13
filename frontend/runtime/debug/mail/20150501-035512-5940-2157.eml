@@ -1,0 +1,54 @@
+Message-ID: <b1a0b2cb35504f541aee4c585af13797@localhost>
+Date: Fri, 01 May 2015 03:55:12 +0200
+Subject: Authenticate your account My Application
+From: My Application robot <support@example.com>
+To: vaibhav@vaxa-asia.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1430445312_fa623a05473c99c3da7fb57e9b2f06f8_=_"
+
+
+--_=_swift_v4_1430445312_fa623a05473c99c3da7fb57e9b2f06f8_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello vaibhav0200,
+
+Follow click the link below to authenticate your ac=
+count:
+
+http://localhost:8888/advanced/frontend/web/index.php?r=3Dsite%=
+2Fauth-user&token=3DdDruJcMFsRJLnV5fLuGKh4D6nQP1yWOZ
+
+--_=_swift_v4_1430445312_fa623a05473c99c3da7fb57e9b2f06f8_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"password-reset">
+    <p>Hello vaibhav0200,</p>
+
+   =
+ <p>Follow click the link below to authenticate your account:</p>
+
+    =
+<p><a href=3D"http://localhost:8888/advanced/frontend/web/index.php?r=3Dsit=
+e%2Fauth-user&amp;token=3DdDruJcMFsRJLnV5fLuGKh4D6nQP1yWOZ">http://localhos=
+t:8888/advanced/frontend/web/index.php?r=3Dsite%2Fauth-user&amp;token=3DdDr=
+uJcMFsRJLnV5fLuGKh4D6nQP1yWOZ</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_v4_1430445312_fa623a05473c99c3da7fb57e9b2f06f8_=_--

@@ -1,0 +1,57 @@
+Message-ID: <5ccbcd6f05e1bc27aed4c10e0071c5c6@localhost>
+Date: Tue, 23 Jun 2015 08:57:38 +0200
+Subject: Authenticate your account My Application
+From: My Application robot <support@motormetric.com>
+To: vaibhavkothare2ei.work@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1435042658_a4a4ccfa6cb2f73f31010b901d076d2c_=_"
+
+
+--_=_swift_v4_1435042658_a4a4ccfa6cb2f73f31010b901d076d2c_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello vaibhavkothare2ei.work@gmail.com,
+
+Follow click the link below to=
+ authenticate your account:
+
+http://localhost:8888/advanced/frontend/we=
+b/index.php?r=3Dsite%2Fauthuser&token=3D5bgtmNHjYBMqK-BZHBhVy6tYY4oo613y&us=
+er=3Dvaibhavkothare2ei.work%40gmail.com
+
+--_=_swift_v4_1435042658_a4a4ccfa6cb2f73f31010b901d076d2c_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"password-reset">
+    <p>Hello vaibhavkothare2ei.work@gm=
+ail.com,</p>
+
+    <p>Follow click the link below to authenticate your a=
+ccount:</p>
+
+    <p><a href=3D"http://localhost:8888/advanced/frontend/=
+web/index.php?r=3Dsite%2Fauthuser&amp;token=3D5bgtmNHjYBMqK-BZHBhVy6tYY4oo6=
+13y&amp;user=3Dvaibhavkothare2ei.work%40gmail.com">http://localhost:8888/ad=
+vanced/frontend/web/index.php?r=3Dsite%2Fauthuser&amp;token=3D5bgtmNHjYBMqK=
+-BZHBhVy6tYY4oo613y&amp;user=3Dvaibhavkothare2ei.work%40gmail.com</a></p>=
+
+</div>
+    </body>
+</html>
+
+
+--_=_swift_v4_1435042658_a4a4ccfa6cb2f73f31010b901d076d2c_=_--

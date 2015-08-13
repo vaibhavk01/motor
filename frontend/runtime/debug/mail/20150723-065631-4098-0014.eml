@@ -1,0 +1,58 @@
+Message-ID: <b3384d18d73eff8003c994f3129694b1@localhost>
+Date: Thu, 23 Jul 2015 06:56:31 +0200
+Subject: Home Page Request
+From: Home Page Request <support@motormetric.com>
+To: motormetric@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1437627391_53872067d4ff6fe151e5fe862b08f8ad_=_"
+
+
+--_=_swift_v4_1437627391_53872067d4ff6fe151e5fe862b08f8ad_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello - new user from Home Page
+
+Brand: Hyundai
+
+Model: i20 Active=
+
+
+IP: ::1
+
+--_=_swift_v4_1437627391_53872067d4ff6fe151e5fe862b08f8ad_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"password-reset">
+    <p>Hello - new user from Home Page=
+</p>
+
+    <p><b>Brand: </b>Hyundai</p>
+   =20
+    <p><b>Model: </b>i2=
+0 Active</p>
+
+    <p><b>IP:</b> ::1</p>
+ =20
+   =20
+
+</div>
+    <=
+/body>
+</html>
+
+
+--_=_swift_v4_1437627391_53872067d4ff6fe151e5fe862b08f8ad_=_--

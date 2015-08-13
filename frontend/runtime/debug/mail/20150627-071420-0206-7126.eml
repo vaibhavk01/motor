@@ -1,0 +1,56 @@
+Message-ID: <e0c5d1fcacc4b9054c27d177908a5540@192.168.1.8>
+Date: Sat, 27 Jun 2015 07:14:19 +0200
+Subject: Authenticate your account My Application
+From: My Application robot <support@motormetric.com>
+To: qqqq@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1435382059_9932a4d901305a6b603ba6ed1a5d76ce_=_"
+
+
+--_=_swift_v4_1435382059_9932a4d901305a6b603ba6ed1a5d76ce_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello qqqq@gmail.com,
+
+Follow click the link below to authenticate your=
+ account:
+
+http://192.168.1.8:8888/advanced/frontend/web/index.php?r=3D=
+site%2Fauthuser&token=3DPwgbMET3Bm-0mjsDmJ1dm0HuGY26IxZT&user=3Dqqqq%40gmai=
+l.com
+
+--_=_swift_v4_1435382059_9932a4d901305a6b603ba6ed1a5d76ce_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"password-reset">
+    <p>Hello qqqq@gmail.com,</p>
+
+=
+    <p>Follow click the link below to authenticate your account:</p>
+
+ =
+   <p><a href=3D"http://192.168.1.8:8888/advanced/frontend/web/index.php?r=
+=3Dsite%2Fauthuser&amp;token=3DPwgbMET3Bm-0mjsDmJ1dm0HuGY26IxZT&amp;user=3D=
+qqqq%40gmail.com">http://192.168.1.8:8888/advanced/frontend/web/index.php?r=
+=3Dsite%2Fauthuser&amp;token=3DPwgbMET3Bm-0mjsDmJ1dm0HuGY26IxZT&amp;user=3D=
+qqqq%40gmail.com</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_v4_1435382059_9932a4d901305a6b603ba6ed1a5d76ce_=_--
